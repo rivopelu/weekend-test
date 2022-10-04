@@ -48,10 +48,10 @@ export const HelpAndTips = () => {
             </ContainerPage>
 
             <div className={"lg:absolute bottom-0  z-[100] w-full pt-28 lg:pt-0 z-[10] lg:pt-[300px]"}>
-                <ContainerPage className={"relative lg:px-0  lg:w-screen lg:max-w-none "}>
+                <div className={"relative lg:px-0  lg:w-screen lg:max-w-none "}>
 
-                    <img className={"absolute -top-16 h-[236] z-[100]  lg:h-[227px] lg:left-[31px] rotate-180"} src={ASSETS.ROBOT_HOME} alt={"robot bottom"}/>
-                </ContainerPage>
+                    <img className={"absolute translate-x-6 lg:translate-x-0 -top-16 h-[236] z-[100]  lg:h-[227px] lg:left-[31px] rotate-180"} src={ASSETS.ROBOT_HOME} alt={"robot bottom"}/>
+                </div>
                 <img alt={"pinkBottom"} className={"lg:h-[325px]"} src={ASSETS.PINK_BOTTOM}/>
             </div>
         </div>
