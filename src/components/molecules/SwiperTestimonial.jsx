@@ -13,7 +13,7 @@ export const SwiperTestimonial = ({data}) => {
 
 
     return (
-        <div className="flex flex-row">
+        <div data-aos-duration="3000"  className="flex flex-row">
 
             <div className=" lg:px-32  overflow-x-hidden  flex relative ">
                 <div ref={navigationPrevRef}

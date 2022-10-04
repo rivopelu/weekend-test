@@ -11,12 +11,13 @@ export const Definition = () => {
                 <SVG src={ASSETS.PINK_DEFINITION}/>
             </div>
             <ContainerPage className={"lg:text-[21px] flex flex-col gap-8 py-16 "}>
-                <div className={"text-end font-bold lg:text-[21px] lg:px-12"}><span className={"font-bold text-mainBlue "}>Deffinition;</span> a practice or exercise to test or
+                <div data-aos="zoom-out-left" className={"text-end font-bold lg:text-[21px] lg:px-12"}><span className={"font-bold text-mainBlue "}>Deffinition;</span> a practice or exercise to test or
                     improve one's fitness for athletic competition, ability, or performance to exhaust (something, such
                     as a mine) by working to devise, arrange, or achieve by resolving difficulties. Merriam-Webster.com
                     Dictionary.
                 </div>
-                <div className={"font-bold text-end text-white lg:pr-12"}>-weekend team</div>
+                <div data-aos="fade-up"
+                     data-aos-duration="3000" className={"font-bold text-end text-white lg:pr-12 italic"}>-weekend team</div>
             </ContainerPage>
         </section>
     )

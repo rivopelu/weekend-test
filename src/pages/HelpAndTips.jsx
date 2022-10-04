@@ -23,7 +23,7 @@ export const HelpAndTips = () => {
 
     return (
         <div className={"relative"}>
-            <ContainerPage className={"text-white flex flex-col gap-[30px] "}>
+            <ContainerPage className={"text-white flex flex-col gap-[30px] relative"}>
                 <SectionTitle label={"Help & Tips"}/>
                 <SVG className={"absolute right-0 translate-x-[140px] z-[20]  scale-0 lg:scale-100"}
                      src={ASSETS.PINK_HELP}/>
@@ -32,7 +32,7 @@ export const HelpAndTips = () => {
                     <div className={"flex flex-col gap-[10px] lg:flex-row z-[21]"}>
                         {
                             data.map((item, i) => (
-                                <div key={i}>
+                                <div data-aos="zoom-in" key={i}>
                                     <HelpAndTipsCard image={item?.image} title={item?.title}/>
                                 </div>
                             ))
@@ -43,7 +43,7 @@ export const HelpAndTips = () => {
             </ContainerPage>
             <ContainerPage className={"lg:pt-[127px] py-[67px] flex flex-col gap-[30px] z-[180] lg:pb-[270px]"}>
                 <SectionTitle label={"You’re all set."} className={"z-[180]"}/>
-                <p className={"lg:text-center lg:text-[18px] z-[180] lg:px-28"}>The wise man therefore always holds in these
+                <p data-aos="fade-up" className={"lg:text-center lg:text-[18px] z-[180] lg:px-28"}>The wise man therefore always holds in these
                     matters to this principle of selection.</p>
             </ContainerPage>
 
