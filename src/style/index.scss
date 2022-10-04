@@ -1,0 +1,12 @@
+
+@import "custom/Font";
+@import "custom/swiper.scss";
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
