@@ -5,7 +5,7 @@ import SVG from "react-inlinesvg";
 
 const Home = () => {
     return (
-        <section className={" h-screen w-screen "}>
+        <section className={" h-screen w-screen overflow-hidden"}>
             <div className={"absolute lg:w-full w-[2000px] -left-[400px] z-[99]  lg:-top-10 lg:left-0"}>
                 <img  className={"lg:w-full"} src={ASSETS.BLACK_HOME_SVG} alt={"homeSvg"}/>
             </div>
