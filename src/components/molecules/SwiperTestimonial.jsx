@@ -39,7 +39,6 @@ export const SwiperTestimonial = ({data}) => {
                             slidesPerView: 2.5
                         }
                     }}
-                    onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={(e) => {
                         setActiveIdx(e.activeIndex)
                         setIsEnd(e.isEnd);
@@ -49,10 +48,10 @@ export const SwiperTestimonial = ({data}) => {
                     {
                         data?.map((item, i) => (
 
-                            <SwiperSlide>
+                            <SwiperSlide key={i}>
                                 <div
                                     className="bg-white w-[247px] h-[140px] p-[20px] text-black flex flex-col justify-between "
-                                    key={i}>
+                                    >
 
                                     <h1 className="text-4xl font-black">{item.by}</h1>
                                     <p className="text-xs">{item.testimony}</p>
